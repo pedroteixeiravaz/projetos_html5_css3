@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans+Syriac+Eastern:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+  background-repeat: no-repeat;
+  background-size: 1920px 1500px;
+  background-image: url(../imagens/wallpaper002.jpg);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+div.quadrado#quadrado1 {
+  background-image: url('../imagens/big-ben-e-westminster-bridge-ao-por-do-sol-londres-reino-unido_268835-1395.avif');
+  display: inline-block;
+}
+
+div.quadrado#quadrado2 {
+  background-image: url('../imagens/Austin-Texas-shutterstock_1104548120-1024x583.jpg');
+  background-position: center;
+  display: inline-block;
+}
+div.quadrado {
+  color: black;
+  height: 500px;
+  width: 330px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 10px;
+  padding-right: 30px;
+  display: inline-block;  
+  background-color: white; 
+  margin: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+  background-image: url('../imagens/big-ben-e-westminster-bridge-ao-por-do-sol-londres-reino-unido_268835-1395.avif');
+}
+
+div.quadrado > p {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  padding: 5px;
+  font-family: 'PT serif', serif;
+  font-size: 21px;
+}
+
+div.quadrado > h1 {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-family: 'PT serif', serif;
+}
+
+div.quadrado > p.preço {
+  color: black;
+  padding: 10px;
+  font-family: 'PT serif', serif;
+  background-color: rgb(151, 251, 169);
+  border-radius: 10px;
+  text-align: justify;
+  width: 78px;
+}
+
+header > p {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: 'PT Serif', serif;
+  font-size: 28px;
+}
+
+header {
+  height: 200px;
+  background-color: rgb(32, 83, 120);
+  padding: 0px;
+  border-radius: 10px;
+}
+
+header > h1 {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  padding: 0px;
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+}
+
+nav {
+  background-color: rgb(32, 83, 120);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+nav > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: 2px;
+  margin-right: 10px;
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  padding: 6px;
+} 
+
+nav > a:hover {
+  background-color: rgba(121, 123, 255, 0.53);
+  border-radius: 5px;
+  color: rgb(182, 182, 182);
+}
+
+main {
+  background-color: #f4faff;
+  height: 60em;
+  width: 88em;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+  padding-top: 0px;
+}
